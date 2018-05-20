@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #8E1214;
+}
+
+#box{
+	
+	height:250px;
+	width:100%;
+}
+
+#space{
+	
+	height:50px;
+	width:100%;
+}
+
+.container{
+	
+	height:200px;
+	width:95%;
+
+	margin:auto;
+  border: 1px solid #3F0235;
+border-color:black;
+border-color:rgba(229,221,221,1.00);
+background-color:ghostwhite}
+
+.container-child-left{
+	
+	height:180px;
+	width:45%;
+	float:left;
+	border: 1px solid #3F0235;
+	margin:10px 0 10px 2%;
+	box-sizing: border-box;
+	background-color: darkgray;
+	border-color:darkslategrey
+	
+ }
+
+.container-child-right{height:180px;
+	width:50%;
+	float:right;
+	border: 1px solid #3F0235;
+	margin:10px 2% 10px 0;
+	box-sizing: border-box;
+	border-color:darkslategrey
+	}
+
+.container-baby-one{
+	height:48px;
+	width:95%;
+	float:left;
+	border: 1px solid #3F0235;
+	margin:3px 0 0 2%;
+	box-sizing: border-box;
+	background-color: black;
+	text-align: right;
+	border-color:darkslategrey
+	
+}
+.container-baby-one h1, .container-baby-two h1 {
+	
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin:10px 10px 0 0;
+	float:right;
+	font-size: 22px;}
+
+.container-baby-three p {
+
+color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+font-size: 10px;
+margin: 4px 0 0 5px;}
+
+
+
+.channel-logo{
+	height:50px;
+	width:50px;
+		float:left;
+		background-image:url(../../../Web%20Context/image-gallery/img/bbc-pic.png);
+		margin:0 0 0 2%;
+		background-size:contain;
+}
+
+.container-baby-two{
+	height:48px;
+	width:95%;
+	float:left;
+	border: 1px solid #3F0235;
+	margin:3px 0 0 2%;
+	box-sizing: border-box;
+	background-color: black;
+border-color:darkslategrey}
+
+.container-baby-three{
+	height:70px;
+	width:95%;
+	float:left;
+	border: 1px solid #3F0235;
+	margin:3px 0 0 2%;
+	box-sizing: border-box;
+	background-color: black;	
+border-color:darkslategrey}
+
+#channel-selection{
+	
+	height:600px;
+	width:90%;
+	margin:auto;}
+
+#row1{
+	height:60px;
+	width:100%;
+	margin:0 0 0 0;}
+
+.icon-bbc1{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc1.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;
+	}
+
+.icon-bbc2{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc2.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+border-color:aliceblue;
+	border-style:ridge;
+box-sizing: border-box;}
+
+
+.icon-bbc3{
+	height:100%;
+	width:30%;
+	margin:0 0 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc3.PNG);
+	background-position: center;
+	background-size: cover;
+	float:left;
+border-color:aliceblue;
+	border-style:ridge;
+box-sizing: border-box;}
+
+
+#row2{height:60px;
+	width:100%;
+margin:auto;
+padding:5% 0 0 0;}
+
+.icon-bbc4{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc4.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;
+	}
+
+.icon-bbc5{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc5.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;}
+
+
+.icon-bbc6{
+	height:100%;
+	width:30%;
+	margin:0 0 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc6.PNG);
+	background-position: center;
+	background-size: cover;
+	float:left;
+border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;}
+
+#row3{height:60px;
+	width:100%;
+margin:auto;
+padding:5% 0 0 0;}
+
+.icon-bbc7{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc7.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;
+	}
+
+.icon-bbc8{
+	height:100%;
+	width:30%;
+	margin:0 5% 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc8.PNG);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;}
+
+
+.icon-bbc9{
+	height:100%;
+	width:30%;
+	margin:0 0 0 0;
+	background-image:url(../../../Web%20Context/image-gallery/img/logo-bbc9.PNG);
+	background-position: center;
+	background-size: cover;
+	float:left;
+	border-color:aliceblue;
+	border-style:ridge;
+	box-sizing: border-box;}
+
+#row4{height:130px;
+	width:100%;
+margin:auto}
+
+.hover:hover {
+	transform: scale(1.2);}
